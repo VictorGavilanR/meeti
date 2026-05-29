@@ -1,3 +1,4 @@
+import LoginForm from "@/src/features/auth/components/LoginForm";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -7,7 +8,8 @@ export const metadata: Metadata = {
 export default function LoginPage() {
   return (
     <>
-      <h1>Iniciar Sesión</h1>
+      <h1 className="text-4xl font-bold text-center">Iniciar Sesión</h1>
+      <LoginForm />
     </>
   );
 }

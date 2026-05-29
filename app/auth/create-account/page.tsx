@@ -1,3 +1,4 @@
+import RegisterForm from "@/src/features/auth/components/RegisterForm";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -7,7 +8,8 @@ export const metadata: Metadata = {
 export default function CreateAccountPage() {
   return (
     <>
-      <h1>Crear una Cuenta</h1>
+      <h1  className="text-4xl font-bold text-center"> Crear una Cuenta</h1>
+      <RegisterForm/>
     </>
   );
 }
